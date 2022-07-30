@@ -1,0 +1,236 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-img-div{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logoimg{
+    height: 50%;
+    line-height: 90px;
+    margin-left: 60px;
+}
+
+.icons-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 120px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.icon i{
+    color: white;
+    font-size: 22px;
+}
+
+.icon-vertical-dot i{
+    font-size: 22px;
+}
+
+.profile-img-div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.profileimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Section */
+.section{
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    margin-top: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.heading{
+    width: 100%;
+    height: 50px;
+    background: #0029FF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.heading p{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.demopara{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+/* Task Heading 1 */
+.task-1, .task-2, .task-3, .task-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.task-head-1, .task-head-3, .task-head-2, .task-head-7, .task-head-8, .task-head-9{
+    width: 50%;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p-head{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.para-content-1{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding: 20px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.down-arrow{
+    text-align: right;
+    margin: 10px 0px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.down-arrow i{
+    cursor: pointer;
+}
+
+/* Task Heading 3 */
+.task-head-3{
+    height: 310px;
+}
+.box-3{
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    min-height: 200px;
+    color: rgb(101, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+/* Task Heading 4 */
+.task-head-4{
+    margin: 30px;
+    width: 50%;
+    height: 640px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.iframe-4{
+    width: 100%;
+    height: 88%;
+}
+
+
+/* Task Heading 8 */
+.audio-wrap{
+    margin:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 100px;
+    background-color: grey;
+}
+
+/* YT Video */
+.yt-video{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.iframe-yt-video{
+    width: 100%;
+    height: 370px;
+}
+
+/* Next Button */
+.next-btn{
+    width: 70px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 50px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0029FF;
+    border-radius: 5px;
+}
